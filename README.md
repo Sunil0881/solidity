@@ -1,5 +1,5 @@
 # solidity
-transaction is a message that is sent from one account to another account (which might be the same or empty, see below). It can include binary data (which is called “payload”) and Ether. If the target account contains code, that code is executed and the payload is provided as input data.
+A transaction is a message that is sent from one account to another account (which might be the same or empty, see below). It can include binary data (which is called “payload”) and Ether. If the target account contains code, that code is executed and the payload is provided as input data.
 
 In computer programming, a transaction usually means a sequence of information exchange and related work (such as database updating) that is treated as a unit for the purposes of satisfying a request and for ensuring database integrity.
 
