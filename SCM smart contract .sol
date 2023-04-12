@@ -23,7 +23,7 @@ contract SupplyChain {
     
     function purchaseProduct(uint _id) public payable {
         Product storage product = products[_id];
-        require(product.id > 0 && product.id <= productCount, "Invalid product ID");
+        require(product.id > 0 && product.id <= productCount, "Invalid product I D");
         require(msg.value == product.quantity * 1 ether, "Insufficient funds");
         require(product.owner != address(0), "Product owner not found");
         require(!product.sold, "Product already sold");
